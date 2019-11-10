@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/background"
+        android:textSize="20dp"
+        android:text="Me?"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/userImgView"
+            android:src="@drawable/springwarm"
+            android:layout_width="150dp"
+            android:layout_height="130dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/heart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:id="@+id/nameTv"
+                    android:text="최상아"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/heart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:id="@+id/sexTv"
+                    android:text="여자"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/heart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:textColor="#baed4643"
+                   android:textStyle="bold"
+                    android:id="@+id/toneTv"
+                    android:text="Autumn Warm"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/background"
+        android:textSize="20dp"
+        android:text="My Paltte"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/mypalette"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/springp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/background"
+        android:textSize="20dp"
+        android:text="Best Hair Color"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/besthair"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/hspring"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/goItem"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#ffff"
+        android:layout_marginTop="35dp"
+        android:text="More Items For Me"
+        android:background="@drawable/btn"
+        android:layout_width="260dp"
+        android:layout_height="40dp" />
+</LinearLayout>

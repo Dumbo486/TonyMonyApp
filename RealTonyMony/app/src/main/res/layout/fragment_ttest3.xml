@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp">
+
+
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/springIv"
+            android:src="@drawable/spring"
+            android:layout_width="90dp"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:id="@+id/summerIv"
+            android:src="@drawable/summer"
+            android:layout_width="90dp"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:id="@+id/autumnIv"
+            android:src="@drawable/autumn"
+            android:layout_width="90dp"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:id="@+id/winterIv"
+            android:src="@drawable/winter"
+            android:layout_width="90dp"
+            android:layout_height="60dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:textSize="50dp"
+        android:text="Your color"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/resultTv"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="당신의 퍼스널 컬러는 어쩌구 입니다."
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <Button
+        android:id="@+id/goResult"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:text="자세한 결과 보러가기 "
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+
+
+</LinearLayout>

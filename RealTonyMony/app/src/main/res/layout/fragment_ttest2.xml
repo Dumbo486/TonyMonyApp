@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <TextView
+        android:gravity="center"
+        android:textSize="50dp"
+        android:text="STEP2"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:gravity="center"
+        android:text="아래의 버튼을 누르시고 (왼쪽에서 오른쪽으로)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="해당하는 영역을 클릭해주세요!!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/testImgView2"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sample"
+            android:layout_width="250dp"
+            android:layout_height="250dp" />
+
+        <ImageView
+            android:id="@+id/goRight2"
+            android:src="@drawable/right"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:id="@+id/hairBtn"
+            android:text="헤어컬러"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn"
+            android:layout_width="80dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:id="@+id/eyeBtn"
+            android:text="눈동자"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn"
+            android:layout_width="80dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:textStyle="bold"
+            android:id="@+id/cheekBtn"
+            android:text="광대"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn"
+            android:layout_width="80dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

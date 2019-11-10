@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textStyle="italic"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:text="Find Your"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textStyle="italic"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:text="True Color "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/goTest"
+                android:textColor="#ffffff"
+                android:background="@drawable/btn"
+                android:layout_marginTop="20dp"
+                android:text="퍼스널 컬러 진단하러가기"
+                android:textStyle="bold"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <GridView
+            android:padding="20dp"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"
+            android:numColumns="2"
+            android:id="@+id/gridView"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></GridView>
+
+
+
+
+
+
+    </LinearLayout>
+
